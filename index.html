@@ -2,45 +2,262 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>E-commerce Product Table</title>
-    <style>
-        body { font-family: Arial, sans-serif; background: #f9f9f9; padding: 20px; }
-        table { width: 100%; border-collapse: collapse; background: white; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        th, td { padding: 12px; border: 1px solid #ddd; text-align: center; }
-        th { background-color: #4CAF50; color: white; }
-        img { width: 40px; height: 40px; }
-        ul { list-style-type: disc; padding-left: 20px; text-align: left; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Glovo Product Table</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      padding: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      background-color: white;
+    }
+
+    th, td {
+      padding: 12px 15px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+      vertical-align: top;
+    }
+
+    th {
+      background-color: #ffce00;
+      color: #333;
+    }
+
+    img.logo {
+      width: 50px;
+      height: auto;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+
+    h2 {
+      text-align: center;
+      color: #444;
+    }
+  </style>
 </head>
 <body>
-    <h2>Product List</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>E-commerce Firm</th>
-                <th>Icon</th>
-                <th>Product Name</th>
-                <th>Product Category</th>
-                <th>Product Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Amazon</td>
-                <td><img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"></td>
-                <td>Echo Dot</td>
-                <td>Electronics</td>
-                <td><ul><li>Smart speaker</li><li>Alexa-enabled</li><li>Voice control</li></ul></td>
-            </tr>
-            <tr>
-                <td>eBay</td>
-                <td><img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg"></td>
-                <td>Vintage Watch</td>
-                <td>Accessories</td>
-                <td><ul><li>Retro design</li><li>Collector's item</li><li>Stainless steel</li></ul></td>
-            </tr>
-        </tbody>
-    </table>
+  <h2>Glovo E-commerce Product Table</h2>
+  <table>
+    <tr>
+      <th>E-commerce Firm</th>
+      <th>Icon</th>
+      <th>Product Name</th>
+      <th>Category</th>
+      <th>Product Description</th>
+    </tr>
+
+    <tr>
+      <td>Glovo</td>
+      <td><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Glovo_logo.png" alt="Glovo Logo" /></td>
+      <td>Big Mac Meal</td>
+      <td>Food - Fast Food</td>
+      <td>
+        <ul>
+          <li>Big Mac Burger</li>
+          <li>Fries</li>
+          <li>Soda Drink</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Glovo</td>
+      <td><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Glovo_logo.png" alt="Glovo Logo" /></td>
+      <td>Domino's Pepperoni Pizza</td>
+      <td>Food - Pizza</td>
+      <td>
+        <ul>
+          <li>Cheese crust</li>
+          <li>Pepperoni topping</li>
+          <li>Serves 2-3</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Glovo</td>
+      <td><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Glovo_logo.png" alt="Glovo Logo" /></td>
+      <td>KFC Zinger Box</td>
+      <td>Food - Chicken</td>
+      <td>
+        <ul>
+          <li>Zinger burger</li>
+          <li>2 Chicken wings</li>
+          <li>Soft drink</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Glovo</td>
+      <td><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Glovo_logo.png" alt="Glovo Logo" /></td>
+      <td>Nivea Men Face Wash</td>
+      <td>Beauty - Skincare</td>
+      <td>
+        <ul>
+          <li>100ml tube</li>
+          <li>Deep cleansing</li>
+          <li>For oily skin</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Glovo</td>
+      <td><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Glovo_logo.png" alt="Glovo Logo" /></td>
+      <td>Coca-Cola 1.5L</td>
+      <td>Drinks</td>
+      <td>
+        <ul>
+          <li>Chilled</li>
+          <li>Classic taste</li>
+          <li>Family size</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Glovo</td>
+      <td><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Glovo_logo.png" alt="Glovo Logo" /></td>
+      <td>Panadol Extra</td>
+      <td>Pharmacy</td>
+      <td>
+        <ul>
+          <li>24 tablets</li>
+          <li>Pain relief</li>
+          <li>Fast-acting formula</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Glovo</td>
+      <td><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Glovo_logo.png" alt="Glovo Logo" /></td>
+      <td>Snickers Bar (Pack of 5)</td>
+      <td>Snacks</td>
+      <td>
+        <ul>
+          <li>Milk chocolate</li>
+          <li>Peanut caramel</li>
+          <li>Multipack</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Glovo</td>
+      <td><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Glovo_logo.png" alt="Glovo Logo" /></td>
+      <td>Heineken 6-pack</td>
+      <td>Beverage - Alcohol</td>
+      <td>
+        <ul>
+          <li>6 x 330ml bottles</li>
+          <li>Premium lager</li>
+          <li>Cold delivered</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Glovo</td>
+      <td><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Glovo_logo.png" alt="Glovo Logo" /></td>
+      <td>Oral-B Toothbrush</td>
+      <td>Health & Hygiene</td>
+      <td>
+        <ul>
+          <li>Medium bristles</li>
+          <li>Ergonomic grip</li>
+          <li>2 pieces</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Glovo</td>
+      <td><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Glovo_logo.png" alt="Glovo Logo" /></td>
+      <td>Lays BBQ Chips</td>
+      <td>Snacks</td>
+      <td>
+        <ul>
+          <li>Party-size pack</li>
+          <li>Barbecue flavor</li>
+          <li>Crunchy</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Glovo</td>
+      <td><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Glovo_logo.png" alt="Glovo Logo" /></td>
+      <td>Yoghurt Parfait</td>
+      <td>Dessert</td>
+      <td>
+        <ul>
+          <li>Fresh fruit</li>
+          <li>Honey drizzle</li>
+          <li>Layered with granola</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Glovo</td>
+      <td><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Glovo_logo.png" alt="Glovo Logo" /></td>
+      <td>Fresh Milk 1L</td>
+      <td>Grocery - Dairy</td>
+      <td>
+        <ul>
+          <li>Pasteurized</li>
+          <li>Whole milk</li>
+          <li>Farm-sourced</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Glovo</td>
+      <td><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Glovo_logo.png" alt="Glovo Logo" /></td>
+      <td>Recharge Card (Airtime)</td>
+      <td>Digital</td>
+      <td>
+        <ul>
+          <li>Instant delivery</li>
+          <li>Scratch-free pin</li>
+          <li>Supports all networks</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Glovo</td>
+      <td><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Glovo_logo.png" alt="Glovo Logo" /></td>
+      <td>Banana (1kg)</td>
+      <td>Fruits</td>
+      <td>
+        <ul>
+          <li>Fresh & ripe</li>
+          <li>Eco-packed</li>
+          <li>Locally grown</li>
+        </ul>
+      </td>
+    </tr>
+
+  </table>
 </body>
 </html>
